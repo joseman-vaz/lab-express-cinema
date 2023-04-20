@@ -1,8 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Limelight", sans-serif;
 }
 
+.title h1 {
+  font-size: 3rem;
+}
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.background-image {
+  background: url("/images/cinema.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  filter: grayscale(80%);
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  padding-right: 20px;
+}
+
+.title {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
